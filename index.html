@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saim Subhani | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">Saim Subhani</h1>
+            <div class="space-x-6 hidden md:block">
+                <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div class="text-center px-4">
+            <h2 class="text-5xl md:text-7xl font-extrabold mb-4 text-gray-900">
+                Hi, I'm <span class="text-blue-600">Saim Subhani</span>
+            </h2>
+            <p class="text-xl md:text-2xl text-gray-600 mb-8">Full Stack Developer & Creative Problem Solver</p>
+            <a href="#projects" class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition shadow-lg">
+                View My Work
+            </a>
+        </div>
+    </header>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-8">About Me</h3>
+            <p class="text-lg text-gray-600 leading-relaxed">
+                I am a passionate developer dedicated to building high-quality web applications. 
+                With a focus on clean code and user experience, I transform ideas into reality 
+                using modern technologies like Tailwind CSS, React, and more.
+            </p>
+            <div class="mt-10 flex flex-wrap justify-center gap-4">
+                <span class="bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm font-medium">React</span>
+                <span class="bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm font-medium">Tailwind CSS</span>
+                <span class="bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm font-medium">Node.js</span>
+                <span class="bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm font-medium">JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-12">Featured Projects</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <div class="h-48 bg-gray-200"></div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">Project One</h4>
+                        <p class="text-gray-600 text-sm mb-4">A brief description of your amazing project and the impact it made.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">Learn More →</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <div class="h-48 bg-gray-200"></div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">Project Two</h4>
+                        <p class="text-gray-600 text-sm mb-4">A brief description of your amazing project and the impact it made.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">Learn More →</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <div class="h-48 bg-gray-200"></div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">Project Three</h4>
+                        <p class="text-gray-600 text-sm mb-4">A brief description of your amazing project and the impact it made.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-xl mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-12">Get In Touch</h3>
+            <form action="#" class="space-y-4">
+                <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <textarea rows="4" placeholder="Your Message" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-bold hover:bg-blue-700 transition">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center border-t border-gray-100 text-gray-500">
+        <p>© 2026 Saim Subhani. Built with Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
